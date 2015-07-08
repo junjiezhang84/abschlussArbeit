@@ -1,0 +1,13 @@
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.exe.config
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.exe
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.pdb
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.csprojResolveAssemblyReference.cache
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\MainWindow.baml
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\MainWindow.g.cs
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\App.g.cs
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit_MarkupCompile.cache
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.g.resources
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.Properties.Resources.resources
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.csproj.GenerateResource.Cache
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.exe
+C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.pdb
