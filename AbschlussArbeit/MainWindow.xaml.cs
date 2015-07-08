@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using Microsoft.Win32;
 
 namespace AbschlussArbeit
 {
@@ -20,14 +22,29 @@ namespace AbschlussArbeit
     /// </summary>
     public partial class MainWindow : Window
     {
+        String filePath;
         public MainWindow()
         {
+            filePath = null;
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void OpenFileDialog_Click(object sender, RoutedEventArgs e)
         {
-
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Multiselect = false;
+            fileDialog.Filter = "CSV Files (*.csv) |*.csv";
+            fileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            if (fileDialog.ShowDialog() == true)
+            {
+                filePath = fileDialog.FileName;
+                setFilePathInLineEdit(filePath);
+            }
         }
+        private void setFilePathInLineEdit(string path)
+        {
+            w_FileEdit.Text = path;
+        }
+
     }
 }

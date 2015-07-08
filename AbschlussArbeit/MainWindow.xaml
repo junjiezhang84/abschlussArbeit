@@ -3,9 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button x:Name="w_FileOpenButton" Content="Open" HorizontalAlignment="Left" Margin="325,73,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button x:Name="w_StartButton" Content="Start" HorizontalAlignment="Left" Margin="325,137,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
-        <TextBox HorizontalAlignment="Left" Height="19" Margin="33,73,0,0" TextWrapping="Wrap" Text="Here Should set file path..." VerticalAlignment="Top" Width="200"/>
+        <Button x:Name="w_FileOpenButton" Content="Open" HorizontalAlignment="Left" Margin="325,73,0,0" VerticalAlignment="Top" Width="75" Click="OpenFileDialog_Click"/>
+        <Button x:Name="w_StartButton" Content="Start" HorizontalAlignment="Left" Margin="325,137,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="w_FileEdit" HorizontalAlignment="Left" Height="19" Margin="33,73,0,0" TextWrapping="Wrap" Text="Here Should set file path..." VerticalAlignment="Top" Width="200" IsEnabled="False"/>
 
     </Grid>
 </Window>
