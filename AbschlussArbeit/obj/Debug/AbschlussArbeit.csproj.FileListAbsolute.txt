@@ -11,3 +11,16 @@ C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\Absch
 C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.csproj.GenerateResource.Cache
 C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.exe
 C:\Users\Junjie\Documents\GitHub\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.pdb
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.exe.config
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.exe
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.pdb
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.exe
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\bin\Debug\AbschlussArbeit.pdb
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.csprojResolveAssemblyReference.cache
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\MainWindow.baml
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\MainWindow.g.cs
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\App.g.cs
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit_MarkupCompile.cache
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.g.resources
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.Properties.Resources.resources
+C:\Users\Zida\Desktop\abschlussArbeit\AbschlussArbeit\obj\Debug\AbschlussArbeit.csproj.GenerateResource.Cache
