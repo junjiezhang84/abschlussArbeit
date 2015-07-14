@@ -36,15 +36,21 @@ namespace AbschlussArbeit
             OpenFileDialog fileDialog = new OpenFileDialog();
             fileDialog.Multiselect = false;
             fileDialog.Filter = "CSV Files (*.csv) |*.csv";
-            fileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+            //fileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
             if (fileDialog.ShowDialog() == true)
             {
                 filePath = fileDialog.FileName;
                 setFilePathInLineEdit(filePath);
             }
             matrix = new MatrixObj.MatrixObj(filePath);
-            List<string> fileList = matrix.stringList;
-            Console.Write(fileList.Count);
+            List<string> TestList = matrix.TestStringList;
+            List<string> LearningList = matrix.LearningStringList;
+            Console.Write(LearningList.Count);
+            for (int i = 0; i < LearningList.Count; i++)
+                Console.WriteLine("Line: "+ i.ToString() + " " + LearningList[i] + "\n");
+            Console.Write("Header: " + matrix.header + "\n");
+            for (int i = 0; i < TestList.Count; i++ )
+                Console.WriteLine("TestLine: " + i.ToString() + " " + TestList[i] + "\n");
         }
         private void setFilePathInLineEdit(string path)
         {
