@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
 using Microsoft.Win32;
+using MatrixObj;
 
 namespace AbschlussArbeit
 {
@@ -22,6 +23,7 @@ namespace AbschlussArbeit
     /// </summary>
     public partial class MainWindow : Window
     {
+        MatrixObj.MatrixObj matrix;
         String filePath;
         public MainWindow()
         {
@@ -40,11 +42,15 @@ namespace AbschlussArbeit
                 filePath = fileDialog.FileName;
                 setFilePathInLineEdit(filePath);
             }
+            matrix = new MatrixObj.MatrixObj(filePath);
+            List<string> fileList = matrix.stringList;
+            Console.Write(fileList.Count);
         }
         private void setFilePathInLineEdit(string path)
         {
             w_FileEdit.Text = path;
         }
+
 
     }
 }
